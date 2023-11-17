@@ -1,0 +1,43 @@
+.wrapper {
+    width: 1600px;
+    height: 130px;
+    margin: auto;
+}
+
+.topBar {
+    width: 1600px;
+    height: 45px;
+    display: inline-flex;
+    align-items: flex-end;
+    gap: 831px;
+    background: #474747;
+}
+
+.phone,
+.mail {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 160px;
+    height: 20px;
+}
+
+.phone h1,
+.mail h1 {
+    color: var(--neutral-02, #F9F9F7);
+    font: 400 16px DM Sans;
+}
+
+.img_phone {
+    width: 18px;
+    height: 18px;
+    background-image: url('../assets/phone.svg');
+}
+
+
+.img_mail {
+    width: 18px;
+    height: 18px;
+    background-image: url('../assets/mail.svg');
+}
+
