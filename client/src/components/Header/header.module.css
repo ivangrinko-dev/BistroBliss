@@ -1,13 +1,13 @@
 .wrapper {
     width: 1600px;
-    height: 130px;
+    height: 150px;
     margin: auto;
 }
 
 .topBar {
     width: 1600px;
-    height: 35px;
- 
+    height: 45px;
+    padding: 5px 150px 5px 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -76,3 +76,83 @@
     height: 28px;
     background-image: url('../assets/4.svg');
 }
+
+.header {
+    width: 1600px;
+    height: 100px;
+    background-color: #F9F9F7;
+    padding-top: 15px;
+}
+
+.conteiner{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+    width: 1400px;
+    height: 55px;
+    margin: auto;
+
+}
+
+.barist{
+    display: flex;
+    width: 300px;
+    height: 40px;
+    align-items: center;
+}
+
+.barist h1{
+    color: #474747;
+    font-size: 42.667px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.img_5 {
+    width: 56px;
+    height: 56px;
+    background-image: url('../assets/japanese-food.svg');
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    height: 35px;
+}
+
+.menu h1 {
+display: inline-flex;
+padding: 4px 16px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 34px;
+background: #DBDFD0;
+font:500 16px DM Sans;
+}
+
+.menu h2 {
+font:500 16px DM Sans;
+}
+
+.btn {
+   
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 118px;
+    border: 1.5px solid var(--neutral-07, #2C2F)
+}
+
+.btn h1 {
+color: var(--neutral-07, #182226);
+text-align: right;
+font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+}
+

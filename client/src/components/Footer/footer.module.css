@@ -1,0 +1,118 @@
+.wrapper {
+    width: 1600px;
+    margin: auto;
+    height: 638px;
+    background: #474747;
+    padding: 120px 150px 100px 150px;
+}
+
+.conteiner {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 135px;
+    width: 1300px;
+    height: 420px;
+    margin: auto;
+
+}
+
+.logotip {
+    width: 300px;
+    height: 157px;
+
+}
+
+.barist {
+    display: flex;
+
+    align-items: center;
+}
+
+.barist h1 {
+    color: #FFF;
+    font-size: 42.667px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.img_1 {
+    width: 56px;
+    height: 55px;
+    background-image: url('./assets/japanese-food\ \(1\).svg');
+}
+
+.logotip p {
+    padding-top: 35px;
+    color: var(--neutral-04, #ADB29E);
+    font: 400 16px DM Sans;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+    width: 330px;
+    height: 352px;
+    background: #d6c7c7;
+}
+
+.pages {
+    align-items: flex-start;
+    width: 61px;
+    height: 352px;
+
+}
+
+.utility {
+
+    width: 150px;
+    height: 352px;
+
+}
+
+
+.info h2 {
+    font: 700 16px DM Sans;
+    color: var(--neutral-01, #FFF);
+}
+
+.info p {
+    font: 400 16px DM Sans;
+    color: var(--neutral-01, #FFF);
+}
+
+.foto {
+    width: 400px;
+    height: 420px;
+    background: #210be0;
+}
+
+
+.block {
+    width: 1600px;
+    height: 140px;
+    background: #474747;
+    margin: auto;
+}
+
+
+
+
+
+.line {
+    width: 1296px;
+    height: 1px;
+    background: #414536;
+
+}
+
+.block h1 {
+    width: 424px;
+    height: 24px;
+    padding: 30px;
+    margin: auto;
+    color: var(--neutral-04, #ADB29E);
+    font: 400 24px DM Sans;
+    font-size: 16px;
+}
