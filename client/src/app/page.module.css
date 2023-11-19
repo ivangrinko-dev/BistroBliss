@@ -1,0 +1,245 @@
+.main {
+    width: 1600px;
+    height: 2294px;
+    background-color: aqua;
+    margin: auto;
+}
+
+.wrapper_1 {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    width: 1600px;
+    height: 712px;
+    background-image: url('../assets/image\ 110.svg');
+}
+
+.title {
+    margin: auto;
+    width: 670px;
+    height: 400px;
+}
+
+.title h1 {
+    color: var(--neutral-07, #2C2F24);
+    text-align: center;
+    font: 400 100px Playfair Display;
+    width: 670px;
+    height: 192px;
+}
+
+.title p {
+    padding-top: 75px;
+    width: 540px;
+    height: 65px;
+    color: var(--neutral-07, #2C2F24);
+    text-align: center;
+    font: 400 20px DM Sans;
+    margin: auto;
+}
+
+.btns {
+    padding-top: 90px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 320px;
+    height: 65px;
+}
+
+.btn_1 {
+    display: flex;
+    padding: 20px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 118px;
+    background: #AD343E;
+    color: var(--neutral-01, #FFF);
+    text-align: right;
+    font: 700 16px DM Sans;
+}
+
+.btn_2 {
+    display: flex;
+    padding: 20px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 118px;
+    border: 1.5px solid var(--neutral-07, #2C2F24);
+    color: var(--neutral-01, #FFF);
+    font: 700 16px DM Sans;
+}
+
+.wrapper_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1600px;
+    height: 712px;
+    background-color: white;
+}
+
+.menu {
+    padding-top: 60px;
+    color: var(--neutral-07, #2C2F24);
+    text-align: center;
+    font: 500 55px Playfair Display;
+    width: 450px;
+    height: 61px;
+    margin: auto;
+
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 1300px;
+    height: 375px;
+}
+
+.card h1 {
+    color: var(--neutral-07, #2C2F24);
+    text-align: center;
+    font: 700 24px DM Sans;
+    width: 135px;
+    height: 30px;
+    margin: auto;
+}
+
+.card p {
+    color: var(--neutral-06, #414536);
+    text-align: center;
+    font: 400 16px DM Sans;
+    width: 238px;
+    height: 72px;
+    margin: auto;
+}
+
+.card h3 {
+    color: #AD343E;
+    text-align: center;
+    font: 700 16px DM Sans;
+    width: 106px;
+    height: 24px;
+    margin: auto;
+}
+
+
+
+.elem_1 {
+    display: flex;
+    flex-direction: column;
+    width: 306px;
+    height: 375px;
+
+}
+
+.img_tea {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    background-image: url(../assets/icon.svg);
+}
+
+.img_ice_cream {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    background-image: url(../assets/icon\ \(1\).svg);
+}
+
+.img_drinks {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    background-image: url(../assets/icon\ \(2\).svg);
+}
+
+.img_cake {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    background-image: url(../assets/icon\ \(3\).svg);
+}
+
+.wrapper_3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1600px;
+    height: 870px;
+    padding-top: 100px;
+    background: #F9F9F7;
+}
+
+.wrapper_3 h1 {
+    margin-right: 620px;
+    color: var(--neutral-07, #2C2F24);
+    font: 500 55px Playfair Display;
+    width: 680px;
+    height: 121px;
+
+}
+
+.content {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    width: 1300px;
+    height: 320px;
+
+}
+
+.img_kebab {
+    width: 306px;
+    height: 320px;
+    background-image: url(../assets/kebab-set-table\ 1.svg);
+}
+
+.img_party {
+    width: 306px;
+    height: 320px;
+    background-image: url(../assets/charming-female-blowing-candles-birthday-cake-after-making-her-wish-party\ 1.svg);
+}
+.img_sunny {
+    width: 306px;
+    height: 320px;
+    background-image: url(../assets/happy-man-wife-sunny-day\ 1.svg);
+}
+.img_group {
+    width: 306px;
+    height: 320px;
+    background-image: url(../assets/group-friends-eating-restaurant\ 1.svg);
+}
+
+
+.block_1 {
+    display: flex;
+    flex-direction: column;
+    width: 306px;
+    height: 445px;
+   
+}
+
+.block_1 h2 {
+    color: var(--neutral-07, #2C2F24);
+   padding-top: 30px;
+    font: 700 24px DM Sans;
+    width: 107px;
+    height: 30px;
+    margin-left: 5px;
+}
+
+.block_1 p {
+    color: var(--neutral-07, #2C2F24);
+    padding-top: 50px;
+    font: 400 16px DM Sans;
+    width: 280px;
+    height: 48px;
+    margin-left: 5px;
+}
+
+

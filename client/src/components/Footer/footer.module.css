@@ -49,30 +49,31 @@
 
 .info {
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
-   
     width: 330px;
     height: 352px;
-    background: #d6c7c7;
 }
 
 .pages {
-    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
     width: 61px;
     height: 352px;
 
 }
 
 .utility {
-
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
     width: 150px;
     height: 352px;
-
 }
 
 
 .info h2 {
+    margin-bottom: 14px;
     font: 700 16px DM Sans;
     color: var(--neutral-01, #FFF);
 }
@@ -83,9 +84,57 @@
 }
 
 .foto {
-    width: 400px;
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 30px;
+justify-content: space-around;
+    width: 405px;
     height: 420px;
-    background: #210be0;
+   
+}
+
+.foto h2 {
+    
+    color: var(--neutral-01, #FFF);
+    font:700 16px DM Sans;
+}
+
+.potato {
+    display: flex;
+    gap: 13px;
+}
+.cake {
+    display: flex;
+    gap: 13px;
+
+}
+
+.img_2 {
+    width: 195px;
+    height: 170px;
+    border-radius: 12px;
+    background-image: url('./assets/pexels-steve-3789885\ 1.svg');
+}
+
+.img_3 {
+    width: 195px;
+    height: 170px;
+    border-radius: 12px;
+    background-image: url('./assets/eiliv-aceron-d5PbKQJ0Lu8-unsplash\ 1.svg');
+}
+
+.img_4 {
+    width: 195px;
+    height: 170px;
+    border-radius: 12px;
+    background-image: url('./assets/pexels-ella-olsson-1640772\ 1.svg');
+}
+.img_5 {
+    width: 195px;
+    height: 170px;
+    border-radius: 12px;
+    background-image: url('./assets/pexels-ash-376464\ 1.svg');
 }
 
 

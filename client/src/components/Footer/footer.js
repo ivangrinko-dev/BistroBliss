@@ -15,6 +15,7 @@ export default function Footer() {
               certainty and pride to for our company and.
             </p>
           </div>
+
           <div className={style.info}>
             <div className={style.pages}>
               <h2>Pages</h2>
@@ -37,9 +38,22 @@ export default function Footer() {
               <p>View More</p>
             </div>
           </div>
-          <div className={style.foto}></div>
+          <div className={style.foto}>
+<h2>Follow Us On Instagram</h2>
+<div className={style.potato}>
+<div className={style.img_2}></div>
+<div className={style.img_3}></div>
+</div>
+<div className={style.cake}>
+<div className={style.img_4}></div>
+<div className={style.img_5}></div>
+</div>
+
+          </div>
         </div>
       </div>
+
+
       <div className={style.block}>
         <div className={style.line}></div>
 
