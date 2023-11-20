@@ -1,0 +1,137 @@
+.main {
+    width: 1600px;
+    height: 1294px;
+    margin: auto;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 1300px;
+    height: 616px;
+}
+
+.conteiner {
+    width: 625px;
+    height: 616px;
+}
+
+.img {
+    position: absolute;
+    width: 580px;
+    height: 560px;
+    background-image: url('./assets/image\ 111\ \(1\).svg')
+}
+
+.info {
+    margin-left: 214px;
+    margin-top: 294px;
+    position: absolute;
+    background-color: #474747;
+    width: 411px;
+    height: 321px;
+    border-radius: 12px;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    margin: auto;
+    margin-top: 50px;
+    width: 311px;
+    height: 221px;
+}
+
+
+.info h1 {
+    width: 195px;
+    height: 30px;
+    color: var(--neutral-01, #FFF);
+    font: 700 24px DM Sans;
+}
+
+.phone {
+    display: flex;
+}
+
+.phone p {
+    color: var(--neutral-02, #F9F9F7);
+    font: 400 16px DM Sans;
+    width: 120px;
+    height: 24px;
+    margin-left: 20px;
+}
+
+.mail p {
+    color: var(--neutral-02, #F9F9F7);
+    font: 400 16px DM Sans;
+    width: 227px;
+    height: 24px;
+    margin-left: 20px;
+}
+
+.marker p {
+    color: var(--neutral-02, #F9F9F7);
+    font: 400 16px DM Sans;
+    width: 267px;
+    height: 48px;
+    margin-left: 20px;
+}
+
+.img_phone {
+    width: 18px;
+    height: 18px;
+    background-image: url('./assets/phone.svg');
+}
+
+.mail {
+    display: flex;
+}
+
+.img_mail {
+    width: 18px;
+    height: 18px;
+    background-image: url('./assets/mail.svg');
+}
+
+.marker {
+    display: flex;
+}
+
+.img_marker {
+    width: 25px;
+    height: 25px;
+    background-image: url('./assets/location-marker.svg');
+}
+
+.conteiner_2 {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 557px;
+    height: 353px;
+    margin-top: 135px;
+
+}
+
+.conteiner_2 h1 {
+    color: var(--neutral-07, #2C2F24);
+    font: 500 55px Playfair Display;
+    width: 540px;
+    height: 121px;
+}
+
+.conteiner_2 h3 {
+    color: var(--neutral-07, #2C2F24);
+    font: 500 18px DM Sans;
+    width: 557px;
+    height: 112px;
+}
+
+.conteiner_2 p {
+    color: var(--neutral-06, #414536);
+    font: 400 16px DM Sans;
+    width: 557px;
+    height: 112px;
+}
