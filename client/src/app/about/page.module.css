@@ -1,6 +1,7 @@
 .main {
     width: 1600px;
     height: 1294px;
+    background-color: #F9F9F7;
     margin: auto;
 }
 
@@ -9,6 +10,7 @@
     justify-content: space-between;
     width: 1300px;
     height: 616px;
+    margin-left: 155px;
 }
 
 .conteiner {
@@ -17,6 +19,7 @@
 }
 
 .img {
+    border-radius: 12px;
     position: absolute;
     width: 580px;
     height: 560px;
@@ -134,4 +137,70 @@
     font: 400 16px DM Sans;
     width: 557px;
     height: 112px;
+}
+
+.wrapper_2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1600px;
+}
+
+.statistickBlock {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.left {
+    width: 610px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.left h1 {
+    color: var(--neutral-07, #2C2F24);
+    font: 500 55px Playfair Display;
+    width: 530px;
+}
+
+.left p {
+    color: var(--neutral-06, #414536);
+    font: 400 16px DM Sans;
+}
+
+.left .item_1,
+.left .item_2,
+.left .item_3,
+.left .item_4 {
+    width: 293px;
+    padding: 30px 0;
+    border-radius: 8px;
+    border: 1px solid var(--neutral-03, #DBDFD0);
+    background: var(--neutral-01, #FFF);
+    text-align: center;
+}
+
+.left h2 {
+    color: var(--neutral-07, #2C2F24);
+    font: 500 55px Playfair Display;
+    
+
+}
+
+.left div p {
+    color: var(--neutral-06, #414536);
+    text-align: center;
+    font: 500 18px DM Sans;
+}
+
+.right {
+    width: 555px;
+    height: 680px;
+    background-image: url('./assets/pexels-cottonbro-studio-4252139\ 1.svg');
+    border-radius: 12px;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
