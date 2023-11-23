@@ -40,7 +40,7 @@ export default function Header() {
               <Link href='/about'>About</Link>
             </h2>
             <h2>
-              <Link href='/'>Menu</Link>
+              <Link href='/menu'>Menu</Link>
             </h2>
           </div>
 

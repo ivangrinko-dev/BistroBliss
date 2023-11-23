@@ -1,0 +1,32 @@
+.main {
+    width: 1600px;
+    background-color: #F9F9F7;
+    margin: auto;
+}
+
+.text {
+padding: 100px 537px 100px 506px;
+}
+.text h1 {
+    width: 454px;
+    color: var(--neutral-07, #2C2F24);
+    text-align: center;
+    font: 400 100px Playfair Display;
+}
+.text p {
+    width: 454px;
+    color: var(--neutral-06, #495460);
+    text-align: center;
+    font:400 18px DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+.statistickBlock {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+}
