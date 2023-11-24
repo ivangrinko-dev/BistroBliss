@@ -1,54 +1,65 @@
+import Image from "next/image";
+import image1 from "./assets/image1.svg";
+import image2 from "./assets/image2.svg";
+import image3 from "./assets/image3.png";
 import style from "./page.module.css";
-export default function About() {
+
+export default function Menu() {
+  const array = [
+    {
+      id: 1,
+      price: "$ 9.99",
+      title: "Fried Eggs",
+      description: "Made with eggs, lettuce, salt, oil and other ingredients.",
+      img: "./assets/image3.png",
+    },
+    {
+      id: 1,
+      price: "$ 9.99",
+      title: "Fried Eggs",
+      description: "Made with eggs, lettuce, salt, oil and other ingredients.",
+      img: "./assets/image3.png",
+    },
+    {
+      id: 1,
+      price: "$ 9.99",
+      title: "Fried Eggs",
+      description: "Made with eggs, lettuce, salt, oil and other ingredients.",
+      img: "./assets/image3.png",
+    },
+    {
+      id: 1,
+      price: "$ 9.99",
+      title: "Fried Eggs",
+      description: "Made with eggs, lettuce, salt, oil and other ingredients.",
+      img: "./assets/image3.png",
+    },
+  ];
+
   return (
     <>
       <div className={style.main}>
         <div className={style.text}>
           <h1>Our Menu</h1>
-          <p>We consider all the drivers of change gives you the components you need to change to create a truly happens.</p>
+          <p>
+            We consider all the drivers of change gives you the components you
+            need to change to create a truly happens.
+          </p>
         </div>
-  
-        <div className={style.statistickBlock}>
-          
-              <div className={style.item_1}>
-                <h2>3</h2>
-                <p>Locations</p>
-              </div>
-              <div className={style.item_2}>
-                <h2>1995</h2>
-                <p>Founded</p>
-              </div>
-              <div className={style.item_3}>
-                <h2>65+</h2>
-                <p>Staff Members</p>
-              </div>
-              <div className={style.item_4}>
-                <h2>100%</h2>
-                <p>Satisfied Customers</p>
-              </div>
 
-
-              <div className={style.item_5}>
-                <h2>3</h2>
-                <p>Locations</p>
+        <div className={style.wrapper}>
+          {array.map((elem) => 
+            <div className={style.item}>
+              <div>
+                <Image src={elem.img} />
               </div>
-              <div className={style.item_6}>
-                <h2>1995</h2>
-                <p>Founded</p>
-              </div>
-              <div className={style.item_7}>
-                <h2>65+</h2>
-                <p>Staff Members</p>
-              </div>
-              <div className={style.item_8}>
-                <h2>100%</h2>
-                <p>Satisfied Customers</p>
-              </div>
-
+              <h2>{elem.price}</h2>
+              <h3>{elem.title}</h3>
+              <p>{elem.description}</p>
             </div>
-
-        <div className={style.main}></div>
-
+          )}
+        </div>
       </div>
     </>
-  )}
+  );
+}
