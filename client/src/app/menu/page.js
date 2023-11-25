@@ -1,65 +1,101 @@
+
+"use client";
+
+import style from "../menu/page.module.css";
 import Image from "next/image";
-import image1 from "./assets/image1.svg";
-import image2 from "./assets/image2.svg";
-import image3 from "./assets/image3.png";
-import style from "./page.module.css";
+import img1 from "./assets/image1.png";
+import img2 from "./assets/image2.png";
+import img3 from "./assets/image3.png";
+import img4 from "./assets/image4.png";
+import img5 from "./assets/image5.png";
+import img6 from "./assets/image6.png";
+import img7 from "./assets/image7.png";
+import img8 from "./assets/image8.png";
 
 export default function Menu() {
   const array = [
     {
       id: 1,
-      price: "$ 9.99",
       title: "Fried Eggs",
       description: "Made with eggs, lettuce, salt, oil and other ingredients.",
-      img: "./assets/image3.png",
+      price: "$ 9.99",
+      img: img1,
     },
     {
-      id: 1,
-      price: "$ 9.99",
-      title: "Fried Eggs",
+      id: 2,
+      title: "Hawaiian Pizza",
       description: "Made with eggs, lettuce, salt, oil and other ingredients.",
-      img: "./assets/image3.png",
+      price: "$ 15.99",
+      img: img2,
     },
     {
-      id: 1,
-      price: "$ 9.99",
-      title: "Fried Eggs",
+      id: 3,
+      title: "Martinez Cocktail",
       description: "Made with eggs, lettuce, salt, oil and other ingredients.",
-      img: "./assets/image3.png",
+      price: "$ 7.25",
+      img: img3,
     },
     {
-      id: 1,
-      price: "$ 9.99",
-      title: "Fried Eggs",
+      id: 4,
+      title: "Butterscotch Cake",
       description: "Made with eggs, lettuce, salt, oil and other ingredients.",
-      img: "./assets/image3.png",
+      price: "$ 20.99",
+      img: img4,
+    },
+    {
+      id: 5,
+      title: "Mint Lemonade",
+      description: "Made with eggs, lettuce, salt, oil and other ingredients.",
+      price: "$ 5.89",
+      img: img5,
+    },
+    {
+      id: 6,
+      title: "Chocolate Icecream",
+      description: "Made with eggs, lettuce, salt, oil and other ingredients.",
+      price: "$ 18.05",
+      img: img6,
+    },
+    {
+      id: 7,
+      title: "Cheese Burger",
+      description: "Made with eggs, lettuce, salt, oil and other ingredients.",
+      price: "$ 12.55",
+      img: img7,
+    },
+    {
+      id: 8,
+      title: "Classic Waffles",
+      description: "Made with eggs, lettuce, salt, oil and other ingredients.",
+      price: "$ 12.99",
+      img: img8,
     },
   ];
 
   return (
-    <>
-      <div className={style.main}>
-        <div className={style.text}>
-          <h1>Our Menu</h1>
-          <p>
-            We consider all the drivers of change gives you the components you
-            need to change to create a truly happens.
-          </p>
-        </div>
+    <div className={style.mainMenu}>
+      <div className={style.menuText}>
+        <h1>Our Menu</h1>
+        <p>
+          We consider all the drivers of change gives you the components you
+          need to change to create a truly happens.
+        </p>
+      </div>
 
-        <div className={style.wrapper}>
-          {array.map((elem) => 
-            <div className={style.item}>
-              <div>
-                <Image src={elem.img} />
-              </div>
-              <h2>{elem.price}</h2>
-              <h3>{elem.title}</h3>
+      <div className={style.container}>
+        {array.map((elem) => (
+          <div className={style.item}>
+            <div>
+              <Image src={elem.img} />
+            </div>
+            <div className={style.containerText}>
+              <p className={style.colorelem}>{elem.price}</p>
+              <h2>{elem.title}</h2>
               <p>{elem.description}</p>
             </div>
-          )}
-        </div>
+          </div>
+        ))}
       </div>
-    </>
+    </div>
   );
 }
