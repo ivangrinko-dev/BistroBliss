@@ -43,14 +43,14 @@
     display: flex;
     justify-content: space-between;
     margin: auto;
-    width: 320px;
+    width: 340px;
     height: 65px;
 }
 
 .btn_1 {
     display: flex;
     padding: 20px 32px;
-    justify-content: center;
+    
     align-items: center;
     gap: 10px;
     border-radius: 118px;
@@ -68,7 +68,7 @@
     gap: 10px;
     border-radius: 118px;
     border: 1.5px solid var(--neutral-07, #2C2F24);
-    color: var(--neutral-01, #FFF);
+    color: var(--neutral-07, #182226);
     font: 700 16px DM Sans;
 }
 
