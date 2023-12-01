@@ -1,4 +1,4 @@
-//import Image from "next/image";
+import Image from "next/image";
 import img1 from "../menu/assets/image1.png";
 import img2 from "../menu/assets/image2.png";
 import img3 from "../menu/assets/image3.png";

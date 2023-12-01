@@ -17,7 +17,7 @@ export default function Menu() {
 
       <div className={style.container}>
         {array.map((elem) => (
-          <Link href="/card/${elem.id}">
+          <Link href='/card/&{elem.id}'>
             <div className={style.item}>
               <div>
                 <Image src={elem.img} />
