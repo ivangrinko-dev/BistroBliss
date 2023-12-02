@@ -16,8 +16,8 @@ export default function Menu() {
       </div>
 
       <div className={style.container}>
-        {array.map((elem) => (
-          <Link href='/card/&{elem.id}'>
+        {array.map((elem) => 
+          <Link href={`/card/${elem.id}`}>
             <div className={style.item}>
               <div>
                 <Image src={elem.img} />
@@ -29,7 +29,7 @@ export default function Menu() {
               </div>
             </div>
           </Link>
-        ))}
+        )}
       </div>
     </div>
   );

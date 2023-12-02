@@ -39,11 +39,12 @@
 .item {
     display: flex;
     flex-direction: column;
-    border-radius: 12px;
     border: 1.5px solid var(--neutral-03, #DBDFD0);
     background: var(--neutral-01, #FFF);
     width: 306px;
+    height: 428px;
     text-align: center;
+    border-radius: 12px;
 }
 
 .containerText {
