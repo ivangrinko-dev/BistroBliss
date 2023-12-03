@@ -1,9 +1,4 @@
-.main {
-    width: 1600px;
-    height: 2294px;
-    background-color: aqua;
-    margin: auto;
-}
+
 
 .wrapper_1 {
     display: flex;
@@ -12,6 +7,7 @@
     width: 1600px;
     height: 712px;
     background-image: url('../assets/image\ 110.svg');
+    margin: auto;
 }
 
 .title {
@@ -50,7 +46,7 @@
 .btn_1 {
     display: flex;
     padding: 20px 32px;
-    
+
     align-items: center;
     gap: 10px;
     border-radius: 118px;
@@ -79,6 +75,7 @@
     width: 1600px;
     height: 712px;
     background-color: white;
+    margin: auto;
 }
 
 .menu {
@@ -165,6 +162,11 @@
     background-image: url(../assets/icon\ \(3\).svg);
 }
 
+.color {
+    background: #F9F9F7;
+
+}
+
 .wrapper_3 {
     display: flex;
     flex-direction: column;
@@ -173,6 +175,7 @@
     height: 870px;
     padding-top: 100px;
     background: #F9F9F7;
+    margin: auto;
 }
 
 .wrapper_3 h1 {
@@ -204,11 +207,13 @@
     height: 320px;
     background-image: url(../assets/charming-female-blowing-candles-birthday-cake-after-making-her-wish-party\ 1.svg);
 }
+
 .img_sunny {
     width: 306px;
     height: 320px;
     background-image: url(../assets/happy-man-wife-sunny-day\ 1.svg);
 }
+
 .img_group {
     width: 306px;
     height: 320px;
@@ -221,12 +226,12 @@
     flex-direction: column;
     width: 306px;
     height: 445px;
-   
+
 }
 
 .block_1 h2 {
     color: var(--neutral-07, #2C2F24);
-   padding-top: 30px;
+    padding-top: 30px;
     font: 700 24px DM Sans;
     width: 107px;
     height: 30px;
@@ -241,5 +246,3 @@
     height: 48px;
     margin-left: 5px;
 }
-
-

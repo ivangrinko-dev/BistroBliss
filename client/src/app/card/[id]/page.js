@@ -15,6 +15,7 @@ export default function id() {
   }, []);
 
   return (
+    <div className={style.color}>
     <div className={style.wrapper}>
       <div className={style.container}>
         
@@ -26,6 +27,7 @@ export default function id() {
           <p>{found?.price}</p>
         </div>
       </div>
+    </div>
     </div>
   );
 }

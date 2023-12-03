@@ -3,6 +3,7 @@ import style from "../Footer/footer.module.css";
 export default function Footer() {
   return (
     <>
+    <div className={style.colorfooter}>
       <div className={style.wrapper}>
         <div className={style.conteiner}>
           <div className={style.logotip}>
@@ -58,6 +59,7 @@ export default function Footer() {
         <div className={style.line}></div>
 
         <h1>Copyright © 2023 Hashtag Developer. All Rights Reserved</h1>
+      </div>
       </div>
     </>
   );

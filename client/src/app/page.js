@@ -3,7 +3,7 @@ import style from "./page.module.css";
 export default function Home() {
   return (
     <>
-      <div className={style.main}>
+      <div className={style.color}>
         <div className={style.wrapper_1}>
           <div className={style.title}>
             <h1>Best food for your taste</h1>
@@ -17,6 +17,7 @@ export default function Home() {
             </div>
           </div>
         </div>
+      </div>
 
         <div className={style.wrapper_2}>
           <h1 className={style.menu}>Browse Our Menu</h1>
@@ -63,6 +64,7 @@ export default function Home() {
           </div>
         </div>
 
+      <div className={style.color}>
         <div className={style.wrapper_3}>
           <h1>We also offer unique services for your events</h1>
           <div className={style.content}>

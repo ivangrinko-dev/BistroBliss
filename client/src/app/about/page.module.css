@@ -1,6 +1,9 @@
+.color {
+
+    background-color: #F9F9F7;
+}
 .main {
     width: 1600px;
-    height: 1294px;
     background-color: #F9F9F7;
     margin: auto;
 }
@@ -48,7 +51,7 @@
 
 
 .info h1 {
-    width: 195px;
+    width: 220px;
     height: 30px;
     color: var(--neutral-01, #FFF);
     font: 700 24px DM Sans;
@@ -61,7 +64,7 @@
 .phone p {
     color: var(--neutral-02, #F9F9F7);
     font: 400 16px DM Sans;
-    width: 120px;
+    width: 130px;
     height: 24px;
     margin-left: 20px;
 }
@@ -140,10 +143,14 @@
 }
 
 .wrapper_2 {
+    width: 1600px;
+    margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 1600px;
+    background-color: #FFF;
+    padding: 70px 160px;
 }
 
 .statistickBlock {
@@ -163,7 +170,8 @@
 .left h1 {
     color: var(--neutral-07, #2C2F24);
     font: 500 55px Playfair Display;
-    width: 530px;
+    width: 550px;
+
 }
 
 .left p {
@@ -186,7 +194,7 @@
 .left h2 {
     color: var(--neutral-07, #2C2F24);
     font: 500 55px Playfair Display;
-    
+
 
 }
 
